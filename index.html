@@ -10,8 +10,9 @@
 <body>
     <div class="language">
         <a id="Chinese" href="Chinese.html">
-            <img src="imagesCHN/nobi.jpg">中文</a>
-        <a id="English" href="English.html">English</a>
+            <img src="imagesCHN/nobi.png">中文</a>
+        <a id="English" href="English.html">
+            <img src="imagesENG/ume.png">English</a>
     </div>
 
     <style>
@@ -24,7 +25,25 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 20px;
+            gap: 3em;
+        }
+
+        .language img{
+            height: 10em;
+        }
+
+        #Chinese {
+            display: flex;
+            align-items: center;
+            flex-direction: column; 
+            text-decoration: none;
+        }
+        
+        #English {
+            display: flex;
+            align-items: center;
+            flex-direction: column; 
+            text-decoration: none;
         }
     </style>
 </body>
