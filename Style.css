@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     /* 垂直居中图片 */
-    width: 85vw;
+    width: 65vw;
     height: 100vh;
     /* 整个屏幕高度 */
     overflow-x: auto;
