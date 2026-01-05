@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     /* 垂直居中图片 */
-    width: 80%;
+    width: 65vw;
     height: 100vh;
     /* 整个屏幕高度 */
     overflow-x: auto;
@@ -25,7 +25,7 @@
 
 /* 核心：控制图片高度，让它适配屏幕 */
 #imgContainer img {
-    max-height: 90vh;
+    max-height: 80vh;
     /* 图片高度不超过屏幕 90% */
     width: auto;
     /* 保持比例 */
