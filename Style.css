@@ -38,11 +38,11 @@
 
 @media (max-width: 700px) {
     .scrollContainer {
-        width: 100vw;
+        width: 90vw;
     }
 
     #imgContainer img {
-        max-height: 55vh;
+        max-height: 60vh;
     }
 
 }
