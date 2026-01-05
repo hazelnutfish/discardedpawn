@@ -25,7 +25,7 @@
 
 /* 核心：控制图片高度，让它适配屏幕 */
 #imgContainer img {
-    max-height: 75vh;
+    max-height: 70vh;
     /* 图片高度不超过屏幕 90% */
     width: auto;
     /* 保持比例 */
