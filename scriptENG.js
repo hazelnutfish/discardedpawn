@@ -1,7 +1,7 @@
 //获取图片
 const container = document.getElementById("imgContainer");
 
-const imageCount = 16; // 英文图片数量
+const imageCount = 20; // 英文图片数量
 const imagePath = "imagesENG/"; // 图片所在目录
 
 for (let i = 1; i <= imageCount; i++) {
